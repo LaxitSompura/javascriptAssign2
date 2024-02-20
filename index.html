@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Character set declaration ensures proper text display, accommodating a wide range of characters. -->
+    <meta charset="utf-8" />
+    <!-- Viewport settings make the webpage responsive, scaling properly on different devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the webpage, visible in the browser tab. -->
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <!-- Link to the external CSS file for styling the webpage. -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link to the external JavaScript file, with 'defer' ensuring it loads after the HTML. -->
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <div>
+        <!-- Placeholder for displaying the student ID. Note: ID should be used as the content, not as the element ID. -->
+        <p id="200556299"></p>
+    </div>
+    <div>
+        <!-- Label for the number input field, guiding users to enter a number between 1 and 100. -->
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <!-- Input field for numbers, intended for user interaction to specify a custom number. -->
+        <input id="customNumber" type="number" placeholder="" />
+    </div>
+    <div class="btn">
+        <!-- Buttons for changing the page background color, either to a custom color based on input or randomly. -->
+        <button class="custColor">Change custom color</button>
+        <button class="randColor">Change random color</button>
+    </div>
+    <div class="lab">
+        <!-- Label for the image selection dropdown, prompting users to choose an image. -->
+        <label for="imageSelect">Select Image</label>
+        <!-- Dropdown for selecting an image, initially populated with a placeholder option. -->
+        <select id="imageSelect">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+    <div>
+        <!-- Image element for displaying the selected image, initially without a source. -->
+        <img id="images" src="" alt=""></img>
+    </div>
+</body>
+</html>

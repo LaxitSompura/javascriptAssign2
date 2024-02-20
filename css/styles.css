@@ -1,0 +1,52 @@
+body {
+    /* Sets the default font family to Arial, a sans-serif font, for a clean and modern look. */
+    font-family: Arial, sans-serif;
+    /* Adds a margin around the entire content of the body, preventing elements from touching the edges of the viewport. */
+    margin: 20px;
+    /* Centers text horizontally within the body, providing a balanced and focused layout. */
+    text-align: center;
+    /* Increases the default font size for better readability across devices. */
+    font-size: 20px;
+}
+
+label, button, select {
+    /* Adds space above and below these elements, preventing them from appearing too cramped. */
+    margin: 10px 0;
+    /* Forces these elements to be block-level, meaning they take up the full width available, facilitating easier positioning and margin control. */
+    display: block;
+}
+
+img {
+    /* Ensures images are responsive, scaling down to fit their container's width without distorting their aspect ratio. */
+    max-width: 100%;
+    height: auto;
+}
+
+.btn, .lab{
+    /* Applies a grid layout to elements with these classes, enabling more precise alignment and positioning within their containers. */
+    display: grid;
+    /* Vertically and horizontally centers the content within the grid area, enhancing the UI's aesthetic and balance. */
+    place-items: center;
+    /* Sets the height to auto, allowing the element's size to adjust based on its content, ensuring adequate spacing and layout consistency. */
+    height: auto; 
+    /* Sets the width to 100%, ensuring these elements span the full width of their parent container, contributing to a cohesive layout. */
+    width: 100%;   
+}
+
+select{
+    /* Changes the background color of select elements to red, making them stand out against other form elements. */
+    background-color: red;
+    /* Adjusts the width of select elements to 10em, providing enough space for option text without overwhelming the layout. */
+    width: 10em;
+    /* Sets the text color within select elements to white, ensuring high contrast and readability against the red background. */
+    color: white;
+    /* Increases the font size in select elements, improving accessibility and ease of use. */
+    font-size: 20px;
+}
+
+option{
+    /* Sets the text color of options within select elements to white, maintaining consistency and contrast for readability. */
+    color: white;
+    /* Adjusts the font size of options, slightly smaller than the select element itself, helping distinguish the select box from its options. */
+    font-size: 15px;
+}
